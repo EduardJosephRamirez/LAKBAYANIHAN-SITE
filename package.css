@@ -1,0 +1,52 @@
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+    padding: 10px 5%;
+    z-index: 1000; 
+}
+
+nav .logo {
+    width: 130px; 
+    height: auto;
+    margin-left: 40%;
+}
+
+
+.container2 {
+    position: relative;
+    gap: 5%;
+    padding: 35px;
+    margin-top: 100px;
+    margin-left: 35px;
+    margin-right: 34px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    box-shadow: 5px 5px 10px #3b3737;
+}
+
+.bg {
+    background-image: url(https://media.istockphoto.com/id/592409002/photo/el-nido-las-cabanas-beach.jpg?s=1024x1024&w=is&k=20&c=MW7IhjG0VGvLlwTlMuP8uEwh17FSSFsn6t5ze7OOQk0=);
+     height: auto;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     display: flex;
+}
+
+p {
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 18px;
+}
